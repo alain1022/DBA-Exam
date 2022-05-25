@@ -1,11 +1,11 @@
 function employee() {
     //Input
-    let hired1 = prompt('Enter the number of newly hired males:', '');
-    let hired2 = prompt('Enter the number of newly hired females:', '');
-    let perm1 = prompt('Enter the number of permanent position males:', '');
-    let perm2 = prompt('Enter the number of permanent position females:', '');
-    let resign1 = prompt('Enter the number of resigned males:', '');
-    let resign2 = prompt('Enter the number of resigned females:', '');
+    let hired1 = prompt('Enter the number of newly hired males:');
+    let hired2 = prompt('Enter the number of newly hired females:');
+    let perm1 = prompt('Enter the number of permanent position males:');
+    let perm2 = prompt('Enter the number of permanent position females:');
+    let resign1 = prompt('Enter the number of resigned males:');
+    let resign2 = prompt('Enter the number of resigned females:');
 
     //Calculate
     let sum = parseInt(hired1) + parseInt(hired2);
